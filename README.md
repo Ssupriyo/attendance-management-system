@@ -13,32 +13,31 @@ Technologies Used:
 - TestNG (Testing Framework)
 
 Project Structure:
+'''Project Structure:
 
 attendance-management-system/
 ├── src/
-│   ├── main/java/com/company/attendance/
-│   │   ├── model/
-│   │   │   ├── Employee.java
-│   │   │   ├── AttendanceRecord.java
-│   │   │   └── LeaveRequest.java
-│   │   ├── repository/
-│   │   │   ├── EmployeeRepository.java
-│   │   │   └── AttendanceRepository.java
-│   │   ├── service/
-│   │   │   ├── AttendanceService.java
-│   │   │   ├── LeaveService.java
-│   │   │   └── ReportService.java
-│   │   ├── exception/
-│   │   │   └── InvalidAttendanceException.java
-│   │   └── App.java
-│   └── test/java/com/company/attendance/service/
-│       ├── AttendanceServiceTest.java
-│       └── LeaveServiceTest.java
+│ ├── main/java/com/company/attendance/
+│ │ ├── model/
+│ │ │ ├── Employee.java
+│ │ │ ├── AttendanceRecord.java
+│ │ │ └── LeaveRequest.java
+│ │ ├── repository/
+│ │ │ ├── EmployeeRepository.java
+│ │ │ └── AttendanceRepository.java
+│ │ ├── service/
+│ │ │ ├── AttendanceService.java
+│ │ │ ├── LeaveService.java
+│ │ │ └── ReportService.java
+│ │ ├── exception/
+│ │ │ └── InvalidAttendanceException.java
+│ │ └── App.java
+│ └── test/java/com/company/attendance/service/
+│ ├── AttendanceServiceTest.java
+│ └── LeaveServiceTest.java
 ├── pom.xml
-└── README.md
-
+└── README.md'''
 How to Build and Run:
-
 1. Build the project:
    mvn clean install
 
