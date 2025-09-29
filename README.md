@@ -13,9 +13,9 @@ Technologies Used:
 - TestNG (Testing Framework)
 
 Project Structure:
-'''Project Structure:
+Project Structure:
 
-attendance-management-system/
+'''attendance-management-system/
 ├── src/
 │ ├── main/java/com/company/attendance/
 │ │ ├── model/
